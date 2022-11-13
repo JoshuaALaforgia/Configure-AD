@@ -22,12 +22,43 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
+- Step 1: Create Virtual Machines
+- Step 2: Set Domian Controller IP to Static
+- Step 3: 
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
+
+<p>
+<img src="https://i.imgur.com/gi0cLbk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is a representation of the network environment we are abou to create.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mjQSQNS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/m9JfKjf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+First Step is to create of virtual machines in Azure.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ROFpMzh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/8VCOgpf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/7SDw0Je.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+Set Domain Controllers NIC Private IP Address to be static
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
