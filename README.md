@@ -28,7 +28,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 4: Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
 - Step 5: Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
 - Step 6: Check back at Client-1 to see the ping succeed
-
+- Step 7: Install Active Directory
+- Step 8: Login to DC-1 and install Active Directory Domain Services
+- Step 9: Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+- Step 10: Restart and then log back into DC-1 as user: mydomain.com\labuser  
+  
+  
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
@@ -88,18 +93,32 @@ Enable all ICMPv4 Traffic, and Ping will begin to get a reply.
 <br />
   
 <p>
-<img src="https://i.imgur.com/Qy2J7O6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C15c9pL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote Desktop into DC-1 with the public IP Address and open wf.msc
+Enable Active Domain Services
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/wkImWEd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+New Forest, then name your Domain Name
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Uvyb8wh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Promote as a DC
 </p>
 <br />
   
-  <p>
-<img src="https://i.imgur.com/Qy2J7O6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p>
+<img src="https://i.imgur.com/FdB6z8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Remote Desktop into DC-1 with the public IP Address and open wf.msc
+Restart system and log back in as labuser 
 </p>
 <br />
-  
